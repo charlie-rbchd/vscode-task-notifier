@@ -20,6 +20,20 @@
     "activationEvents": [
         "*"
     ],
+    "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "Task Notifier",
+            "properties": {
+                "taskNotifier.playSound": {
+                    "type": "boolean",
+                    "description": "Control whether a sound is played or not when getting notified.",
+                    "default": true,
+                    "scope": "resource"
+                }
+            }
+        }
+    },
     "main": "./out/extension",
     "scripts": {
         "vscode:prepublish": "npm run compile",

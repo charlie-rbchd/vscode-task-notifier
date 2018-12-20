@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
         notifier.notify({
             title: 'Code',
             message: `Task completed: ${e.execution.task.name}`,
-            sound: true
+            sound: vscode.workspace.getConfiguration('taskNotifier').get('playSound', true)
         });
     });
 
