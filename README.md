@@ -1,8 +1,8 @@
 # Task Notifier
 
-Task Notifier is a Visual Studio Code extension that pops a system notification upon task completion. The days where you had compulsively switch between your editor and some kind of entertainment while building are over!
+Task Notifier is a Visual Studio Code extension that pops a notification (system notification, vsCode notification or statusBar message) upon task completion. The days where you had compulsively switch between your editor and some kind of entertainment while building are over!
 
-## Requirements
+## Requirements for system notifications
 
 On most platforms, the native notifications will be used and will fallback on Growl when they are no native notification system is available. You should install Growl if you are running a macOS version older than 10.8 or a version of Windows older than 8.
 
