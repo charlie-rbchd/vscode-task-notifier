@@ -5,6 +5,9 @@
     "author": {
         "name": "joelrobichaud"
     },
+    "contributors": [
+        "sebRomeo"
+    ],
     "displayName": "Task Notifier",
     "description": "Get notified when your tasks are done.",
     "engines": {
@@ -30,6 +33,22 @@
                     "description": "Control whether a sound is played or not when getting notified.",
                     "default": true,
                     "scope": "resource"
+                },
+                "taskNotifier.vscodeNotification": {
+                    "type": "string",
+                    "description": "Choose between system notifications (default), vsCode message in the status bar or vsCode notification",
+                    "default": "system",
+                    "scope": "resource",
+                    "enum": [
+                        "system",
+                        "statusBar",
+                        "vsCodeNotification"
+                    ],
+                    "enumDescriptions": [
+                        "(default) System notifications",
+                        "Message in vsCode status bar",
+                        "Vscode notification (requires user to close it manually)"
+                    ]
                 }
             }
         }
