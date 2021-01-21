@@ -1,12 +1,13 @@
 {
     "name": "vscode-task-notifier",
     "publisher": "joelrobichaud",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": {
         "name": "joelrobichaud"
     },
     "contributors": [
-        "sebRomeo"
+        "sebRomeo",
+        "victorvianna"
     ],
     "displayName": "Task Notifier",
     "description": "Get notified when your tasks are done.",
